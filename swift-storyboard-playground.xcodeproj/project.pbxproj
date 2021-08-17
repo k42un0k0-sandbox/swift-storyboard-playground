@@ -15,6 +15,12 @@
 		282CF63426CB5110001746E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282CF63226CB5110001746E8 /* LaunchScreen.storyboard */; };
 		282CF63F26CB5110001746E8 /* swift_storyboard_playgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282CF63E26CB5110001746E8 /* swift_storyboard_playgroundTests.swift */; };
 		282CF64A26CB5110001746E8 /* swift_storyboard_playgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282CF64926CB5110001746E8 /* swift_storyboard_playgroundUITests.swift */; };
+		282CF65826CB544D001746E8 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282CF65726CB544D001746E8 /* MyTabBarController.swift */; };
+		282CF65A26CB55AC001746E8 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282CF65926CB55AC001746E8 /* RoundButton.swift */; };
+		282CF65C26CB5645001746E8 /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282CF65B26CB5645001746E8 /* MyTabBar.swift */; };
+		282CF65F26CB5B30001746E8 /* PositiveSimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282CF65E26CB5B2F001746E8 /* PositiveSimpleButton.swift */; };
+		282CF66126CB5EEB001746E8 /* LabelButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CF66026CB5EEB001746E8 /* LabelButton.xib */; };
+		282CF66526CB5F95001746E8 /* LabelButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282CF66426CB5F95001746E8 /* LabelButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,13 @@
 		282CF64526CB5110001746E8 /* swift-storyboard-playgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-storyboard-playgroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		282CF64926CB5110001746E8 /* swift_storyboard_playgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_storyboard_playgroundUITests.swift; sourceTree = "<group>"; };
 		282CF64B26CB5110001746E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282CF65726CB544D001746E8 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		282CF65926CB55AC001746E8 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		282CF65B26CB5645001746E8 /* MyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
+		282CF65D26CB59DC001746E8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		282CF65E26CB5B2F001746E8 /* PositiveSimpleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveSimpleButton.swift; sourceTree = "<group>"; };
+		282CF66026CB5EEB001746E8 /* LabelButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelButton.xib; sourceTree = "<group>"; };
+		282CF66426CB5F95001746E8 /* LabelButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +92,7 @@
 		282CF61B26CB510C001746E8 = {
 			isa = PBXGroup;
 			children = (
+				282CF65D26CB59DC001746E8 /* README.md */,
 				282CF62626CB510C001746E8 /* swift-storyboard-playground */,
 				282CF63D26CB5110001746E8 /* swift-storyboard-playgroundTests */,
 				282CF64826CB5110001746E8 /* swift-storyboard-playgroundUITests */,
@@ -106,6 +120,12 @@
 				282CF63026CB5110001746E8 /* Assets.xcassets */,
 				282CF63226CB5110001746E8 /* LaunchScreen.storyboard */,
 				282CF63526CB5110001746E8 /* Info.plist */,
+				282CF65726CB544D001746E8 /* MyTabBarController.swift */,
+				282CF65926CB55AC001746E8 /* RoundButton.swift */,
+				282CF65E26CB5B2F001746E8 /* PositiveSimpleButton.swift */,
+				282CF65B26CB5645001746E8 /* MyTabBar.swift */,
+				282CF66026CB5EEB001746E8 /* LabelButton.xib */,
+				282CF66426CB5F95001746E8 /* LabelButtonView.swift */,
 			);
 			path = "swift-storyboard-playground";
 			sourceTree = "<group>";
@@ -231,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				282CF66126CB5EEB001746E8 /* LabelButton.xib in Resources */,
 				282CF63426CB5110001746E8 /* LaunchScreen.storyboard in Resources */,
 				282CF63126CB5110001746E8 /* Assets.xcassets in Resources */,
 				282CF62F26CB510C001746E8 /* Main.storyboard in Resources */,
@@ -259,8 +280,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				282CF62C26CB510C001746E8 /* ViewController.swift in Sources */,
+				282CF65A26CB55AC001746E8 /* RoundButton.swift in Sources */,
+				282CF65826CB544D001746E8 /* MyTabBarController.swift in Sources */,
+				282CF65F26CB5B30001746E8 /* PositiveSimpleButton.swift in Sources */,
 				282CF62826CB510C001746E8 /* AppDelegate.swift in Sources */,
 				282CF62A26CB510C001746E8 /* SceneDelegate.swift in Sources */,
+				282CF65C26CB5645001746E8 /* MyTabBar.swift in Sources */,
+				282CF66526CB5F95001746E8 /* LabelButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,6 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D76G9Y2ZAS;
 				INFOPLIST_FILE = "swift-storyboard-playground/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +485,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D76G9Y2ZAS;
 				INFOPLIST_FILE = "swift-storyboard-playground/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
